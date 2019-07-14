@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "222849357574",
+    "firebase_url": "https://mapro-ea941.firebaseio.com",
+    "project_id": "mapro-ea941",
+    "storage_bucket": "mapro-ea941.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222849357574:android:7c9174745f75b457",
+        "android_client_info": {
+          "package_name": "com.znuri.mapro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222849357574-913g3j81esg9g607m4b5msb7jqbnao5k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.znuri.mapro",
+            "certificate_hash": "8230074466a2d14d7855b38fee104bc47c7f7813"
+          }
+        },
+        {
+          "client_id": "222849357574-n9hm0emhqep1g257cl4pa325tj78imd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9xyqPTPhL-HPhrYM1ByCyU1770OezdmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222849357574-n9hm0emhqep1g257cl4pa325tj78imd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

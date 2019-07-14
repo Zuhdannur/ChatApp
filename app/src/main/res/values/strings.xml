@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mapro</string>
+    <string name="defaul_web_client">222849357574-n9hm0emhqep1g257cl4pa325tj78imd6.apps.googleusercontent.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+        eleifend ante quis risus condimentum, eu finibus nibh dapibus.
+        Aenean luctus.</string>
+    <string name="url">https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_720,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/6522cf6a-/BalonUdaraSunrise.jpg</string>
+</resources>

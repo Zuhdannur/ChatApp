@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:paddingBottom="12dp"
+              android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView android:layout_width="26dp"
+                                                  android:src="@drawable/icon"
+                                                  android:layout_height="26dp" tools:ignore="MissingConstraints"
+                                                  app:layout_constraintStart_toStartOf="parent"
+                                                  android:layout_marginLeft="24dp" android:layout_marginStart="24dp"
+                                                  android:layout_marginTop="16dp"
+                                                  app:layout_constraintTop_toTopOf="parent"
+                                                  android:id="@+id/picProfile"/>
+    <TextView android:layout_width="wrap_content"
+              android:text="Players Name"
+              android:id="@+id/playersName"
+              android:layout_height="wrap_content"
+              tools:ignore="MissingConstraints"
+              app:layout_constraintStart_toEndOf="@+id/picProfile"
+              android:layout_marginTop="20dp"
+              app:layout_constraintTop_toTopOf="parent" android:layout_marginLeft="8dp"
+              android:layout_marginStart="8dp"/>
+    <TextView android:layout_width="wrap_content"
+              android:background="@drawable/bubble_chat_sender"
+              android:text="Halo Nama Saya Sarip"
+              android:padding="8dp"
+              android:textColor="@color/white"
+              android:layout_height="wrap_content"
+              android:id="@+id/sender"
+              tools:ignore="MissingConstraints"
+              app:layout_constraintStart_toStartOf="parent"
+              android:layout_marginLeft="24dp" android:layout_marginStart="24dp"
+              android:layout_marginTop="48dp" app:layout_constraintTop_toTopOf="parent"/>
+    <TextView android:layout_width="wrap_content"
+              android:background="@drawable/bubble_chat_receiver"
+              android:text="Halo juga"
+              android:textColor="@color/white"
+              android:padding="8dp"
+              android:id="@+id/reciever"
+              android:layout_height="wrap_content" tools:ignore="MissingConstraints"
+              android:layout_marginEnd="16dp"
+              app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="16dp"
+              android:layout_marginTop="48dp" app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
